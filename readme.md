@@ -8,15 +8,15 @@ This simpyl works by not allowing your PC to access the website `outlookads.live
 
 ## Contents
 
-1. [Installation](#-installation)
-2. [Before and after](#-before-and-after)
+1. [Installation](#installation)
+2. [Before and after](#before-and-after)
 
 ## Installation
 
 There are two ways:
 
-1. [The script method](#-script-method)
-2. [The manual method](#-manual-method)
+1. [The script method](#script-method)
+2. [The manual method](#manual-method)
 
 ## Script method
 
