@@ -1,8 +1,8 @@
-# Outlookadblock
+# Outlook desktop ad blocker
 
-Outlookadblock is a simple patch to the Windows hosts file, that causes the Outlook desktop client to stop displaying those annoying ads in your inbox. There will still be an empty space, but no more ads that you accidentially click on.
+This is a simple patch to the Windows hosts file, that causes the Outlook desktop client to stop displaying those *annoying* ads in your inbox. There will still be an empty space, but no more ads that you accidentially click on.
 
-This simply works by not allowing your PC to access the website `outlookads.live.com`, which outlook uses to fetch the ads it displays:
+This simply works disallowing your PC to access the website `outlookads.live.com`, which outlook uses to fetch the ads it displays:
 
 ###### Note: I am also working on removing that blank space, but could take some time.
 
