@@ -81,7 +81,7 @@ Restart Outlook desktop and enjoy your ad free experience.
 
 ## Other OS support
 
-While having only tested it on the newest Windows 11 build, this should also work for any other OS. Just search on how to edit your hosts file and make the same edits as in [the manual method](#manual-method).
+While having only tested it on the newest Windows 11 build, this should also work for any other OS. Just search on how to edit your hosts file and make the same edits as in [the manual method](#manual-method) (just change the file path).
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
