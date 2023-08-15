@@ -10,7 +10,7 @@ This simply works disallowing your PC to access the website `outlookads.live.com
 
 1. [Installation](#installation)
 2. [Before and after](#before-and-after)
-3. [Other OS](#other-os-support)
+3. [Other OS support](#other-os-support)
 
 ## Installation
 
