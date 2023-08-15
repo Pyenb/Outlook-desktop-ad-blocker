@@ -25,7 +25,7 @@ To make it simpler, I threw together a quick windows batch script that does all 
 
 ### 1. Downloading
 
-Download the `block.bat` file to your PC.
+Download the [block.bat](https://github.com/Pyenb/Outlook-desktop-ad-blocker/blob/main/block.bat) file to your PC.
 
 ### 2. Executing
 
