@@ -10,6 +10,7 @@ This simply works disallowing your PC to access the website `outlookads.live.com
 
 1. [Installation](#installation)
 2. [Before and after](#before-and-after)
+3. [Other OS](#other-os-support)
 
 ## Installation
 
@@ -77,6 +78,10 @@ Restart Outlook desktop and enjoy your ad free experience.
 **After:**
 
 ![After](https://i.ibb.co/dG89q6Y/5.png)
+
+## Other OS support
+
+While having only tested it on the newest Windows 11 build, this should also work for any other OS. Just search on how to edit your hosts file and make the same edits as in [the manual method](#manual-method).
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
