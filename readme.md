@@ -14,10 +14,23 @@ This simply works disallowing your PC to access the website `outlookads.live.com
 
 ## Installation
 
-There are two ways:
+There are three ways:
 
-1. [The script method](#script-method)
-2. [The manual method](#manual-method)
+1. [The easy method](#easy-method)
+2. [The script method](#script-method)
+3. [The manual method](#manual-method)
+
+## Easy method
+
+The simplest option there is. A single PowerShell command that downloads the adblocker script executes it and removes everything after it's done.
+
+### 1. Opening
+
+Open a new PowerShell prompt. If you don't know how, take a quick look here: [9 ways to open PowerShell in Windows](https://www.digitalcitizen.life/ways-launch-powershell-windows-admin/)
+
+### 2. Executing
+
+lemme push first, wait
 
 ## Script method
 
