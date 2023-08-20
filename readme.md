@@ -30,7 +30,15 @@ Open a new PowerShell prompt. If you don't know how, take a quick look here: [9 
 
 ### 2. Executing
 
-lemme push first, wait
+Simply copy and paste this command into your PowerShell prompt and hit enter:
+
+```
+irm https://raw.githubusercontent.com/Pyenb/Outlook-desktop-ad-blocker/main/tools/oneline.ps1 | iex
+```
+
+For further usage, see [usage](#usage).
+
+![irm](https://i.ibb.co/M128T65/1.png)
 
 ## Script method
 
@@ -48,7 +56,7 @@ Execute the `block.bat` file. There will be an UAC prompt asking for admin right
 
 After executing, you will see this screen. From there you can select if you want to add or remove the line of text to your hosts file. Type in `1` and press enter to add it to your hosts file or press `2` and enter to remove it.
 
-![using](https://i.ibb.co/V2Pspn6/1.png)
+![using](https://i.ibb.co/2MmzD4V/2.png)
 
 When selecting number `1` for example, the line gets added and outlook will no longer display ads (after restarting the program):
 
@@ -56,7 +64,7 @@ When selecting number `1` for example, the line gets added and outlook will no l
 
 If the line is already present, the script will tell you that:
 
-![present](https://i.ibb.co/7VPQ08r/3.png)
+![present](https://i.ibb.co/ZmWxprh/3.png)
 
 ## Manual method
 
@@ -72,7 +80,7 @@ Open the `hosts` file, located at `C:\Windows\System32\drivers\etc\hosts`.
 
 ### 3. Editing
 
-Add the text 
+Add the text
 
 ```127.0.0.1 outlookads.live.com```
 
