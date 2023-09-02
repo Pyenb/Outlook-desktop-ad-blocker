@@ -45,13 +45,19 @@ if "%operation%"=="1" (
     echo Adding the line to hosts file...
     echo.%lineToAddOrRemove%>>"%hostsFile%"
     echo Successfully installed adblock.
+    echo Exiting...
+    timeout /t 3 > nul
+
 ) else if "%operation%"=="2" (
     echo Removing the line from hosts file...
     findstr /v "%lineToAddOrRemove%" "%hostsFile%" > "%hostsFile%.new"
     move /y "%hostsFile%.new" "%hostsFile%" > nul
     echo Successfully removed adblock.
+    echo Exiting...
+    timeout /t 3 > nul
 ) else if "%operation%"=="0" (
     echo Exiting...
+    timeout /t 3 > nul
     exit
 ) else (
     echo Invalid choice. Please enter 0, 1 or 2.
