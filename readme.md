@@ -4,8 +4,6 @@ This is a simple patch to the Windows hosts file, that causes the Outl
 
 This simply works disallowing your PC to access the website `outlookads.live.com`, which outlook uses to fetch the ads it displays:
 
-###### Note: I am also working on removing that blank space, but could take some time.
-
 ## Contents
 
 1. [Installation](#installation)
