@@ -1,5 +1,5 @@
-$batchFileUrl = "https://raw.githubusercontent.com/Pyenb/Outlook-desktop-ad-blocker/main/block.bat"
-$batchFilePath = "$env:TEMP\block.bat"
+$batchFileUrl = "https://raw.githubusercontent.com/Pyenb/Outlook-desktop-ad-blocker/main/adblock.bat"
+$batchFilePath = "$env:TEMP\adblock.bat"
 
 Write-Host "Downloading batch file..."
 Invoke-WebRequest -Uri $batchFileUrl -OutFile $batchFilePath
