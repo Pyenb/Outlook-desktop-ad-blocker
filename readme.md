@@ -19,7 +19,7 @@ This simply works disallowing your PC to access the domain `outlookads.live.com`
 1. On Windows 8.1/10/11, right-click on the Windows start menu and select PowerShell or Terminal (Not CMD). If you don't know how to do this, check out [this article](https://www.howtogeek.com/662611/9-ways-to-open-powershell-in-windows-10/).
 2. Copy and paste the following command into the PowerShell window and press enter. This command downloads a script from the repository and executes it:
 
-```powershell
+```
 irm https://raw.githubusercontent.com/Pyenb/Outlook-desktop-ad-blocker/main/tools/oneline.ps1 | iex
 ```
 
