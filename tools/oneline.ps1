@@ -5,6 +5,6 @@ Write-Host "Downloading batch file..."
 Invoke-RestMethod -Uri $batchFileUrl -OutFile $batchFilePath
 
 Write-Host "Executing batch file..."
-Start-Process -FilePath $batchFilePath -Wait
+Start-Process -FilePath $batchFilePath -Wait -NoNewWindow -ExecutionPolicy Bypass
 Remove-Item -Path $batchFilePath -Force
 Write-Host "Removed batch file..."
