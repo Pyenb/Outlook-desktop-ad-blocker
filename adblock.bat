@@ -35,7 +35,7 @@ echo.
 echo.
 echo.       ______________________________________________________________
 echo.
-call :color Red "             Hosts file wasn''t found, aborting..."
+call :color Red "             Hosts file was not found, aborting..."
 echo.       ______________________________________________________________
 echo.
 call :color Yellow "             Press any key to exit..."
