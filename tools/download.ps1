@@ -1,8 +1,8 @@
 # Author: Pyenb
 # https://github.com/Pyenb/Outlook-desktop-ad-blocker
 
-$batchFileUrl = "https://raw.githubusercontent.com/Pyenb/Outlook-desktop-ad-blocker/main/adblock.bat"
-$batchFilePath = "$env:TEMP\adblock.bat"
+$batchFileUrl = "https://raw.githubusercontent.com/Pyenb/Outlook-desktop-ad-blocker/main/adblock.cmd"
+$batchFilePath = "$env:TEMP\adblock.cmd"
 
 # Remove batch file if it already exists
 if (Test-Path $batchFilePath) {
