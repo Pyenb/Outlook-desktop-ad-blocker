@@ -1,5 +1,4 @@
 @echo off
-setlocal
 
 set "hostsFile=%windir%\System32\drivers\etc\hosts"
 set "OutlookAdDomain=0.0.0.0 outlookads.live.com"
@@ -20,7 +19,6 @@ goto :eof
 :checkAdblocker
 findstr /c:"%OutlookAdDomain%" "%hostsFile%" >nul
 goto :eof
-
 
 :OutlookAdblockInit
 
@@ -75,7 +73,7 @@ set _erl=%errorlevel%
 if %_erl%==3 exit
 if %_erl%==2 goto :OutlookAdblockUninstall
 if %_erl%==1 goto :OutlookAdblockInstall
-goto OutlookAdblockMenu
+goto :OutlookAdblockMenu
 
 :OutlookAdblockInstall
 
@@ -126,5 +124,3 @@ echo.
 call :color Yellow "             Press any key to go back..."
 pause >nul
 goto OutlookAdblockMenu
-
-endlocal
