@@ -1,4 +1,5 @@
 @echo off
+setlocal
 
 set "hostsFile=%windir%\System32\drivers\etc\hosts"
 set "OutlookAdDomain=0.0.0.0 outlookads.live.com"
@@ -124,3 +125,5 @@ echo.
 call :color Yellow "             Press any key to go back..."
 pause >nul
 goto OutlookAdblockMenu
+
+endlocal
