@@ -21,6 +21,7 @@ goto :eof
 findstr /c:"%OutlookAdDomain%" "%hostsFile%" >nul
 goto :eof
 
+
 :OutlookAdblockInit
 
 cls

@@ -5,13 +5,15 @@ $batchFileUrl = "https://raw.githubusercontent.com/Pyenb/Outlook-desktop-ad-bloc
 $batchFilePath = "$env:TEMP\adblock.bat"
 
 # Remove batch file if it already exists
-Remove-Item -Path $batchFilePath -Force
+if (Test-Path $batchFilePath) {
+    Remove-Item -Path $batchFilePath -Force
+}
 
 # Download and execute batch file
 Write-Host "Downloading batch file..."
 Invoke-RestMethod -Uri $batchFileUrl -OutFile $batchFilePath
 
 Write-Host "Executing batch file..."
-Start-Process -FilePath $batchFilePath -Wait -NoNewWindow
+Start-Process -FilePath $batchFilePath -Wait
 Remove-Item -Path $batchFilePath -Force
 Write-Host "Removed batch file..."
