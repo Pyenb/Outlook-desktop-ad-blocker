@@ -6,6 +6,12 @@ This simply works disallowing your PC to access the domain `outlookads.live.com`
 
 ---
 
+# !WARNING!
+
+GITHUB IS SOMEHOW BREAKING THE SCRIPT WHEN DOWNLOADING IT. I DON'T KNOW WHY. IF YOU WANT TO USE IT, DOWNLOAD THE OLD VERSION FROM [HERE](https://github.com/Pyenb/Outlook-desktop-ad-blocker/blob/main/tools/DEPRECATED.bat). I WILL TRY TO FIX THIS AS SOON AS POSSIBLE.
+
+---
+
 ## Contents
 
 1. [Installation](#download--how-to-use-it)
