@@ -29,8 +29,8 @@ irm https://raw.githubusercontent.com/Pyenb/Outlook-desktop-ad-blocker/main/tool
 
 ### Method 2 - Traditional
 
-1. Download the [adblock.bat](https://github.com/Pyenb/Outlook-desktop-ad-blocker/blob/main/adblock.bat) file to your PC.
-2. Execute the `adblock.bat` file.
+1. Download the [adblock.cmd](https://github.com/Pyenb/Outlook-desktop-ad-blocker/blob/main/adblock.cmd) file to your PC.
+2. Execute the `adblock.cmd` file.
 3. There will be a prompt asking for admin rights (these are needed to edit the hosts file). Press `Yes`.
 4. Follow the instructions on screen or check the [usage](#usage) section.
 5. Restart Outlook desktop and enjoy your ad free experience.
