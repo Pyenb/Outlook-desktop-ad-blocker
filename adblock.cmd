@@ -74,7 +74,7 @@ set _erl=%errorlevel%
 if %_erl%==3 exit
 if %_erl%==2 goto :OutlookAdblockUninstall
 if %_erl%==1 goto :OutlookAdblockInstall
-goto OutlookAdblockMenu
+goto :OutlookAdblockMenu
 
 :OutlookAdblockInstall
 
