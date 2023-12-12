@@ -37,7 +37,7 @@ irm https://raw.githubusercontent.com/Pyenb/Outlook-desktop-ad-blocker/main/tool
 
 ### Method 3 - Manual
 
-1. Follow the [manual method](#manual-method) below.
+1. Follow the [manual method](#manual-install) below.
 
 ---
 
@@ -59,7 +59,7 @@ When choosing the option `2`, the adblocker will be uninstalled.
 
 ![uninstalling](images/uns.png)
 
-## Manual method
+## Manual install
 
 Don't trust my script or having problems? This is how you can DIY.
 
