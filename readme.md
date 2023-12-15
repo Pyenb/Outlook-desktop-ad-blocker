@@ -81,7 +81,7 @@ Don't trust my script or having problems? This is how you can DIY.
 
 ## Other OS support
 
-This was only tested on Windows 11, but should work on any other OS. To do this, just search on how to edit your hosts file and make the same edits as in [the manual method](#manual-install). Just make sure you use the correct path to your hosts file.
+This was only tested on Windows 11, but should work on any other OS. To do this, just search on how to edit your hosts file and make the same edits as in [the manual installation](#manual-install). Just make sure you use the correct path to your hosts file.
 
 ## Contributing
 
