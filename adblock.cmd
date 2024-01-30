@@ -89,6 +89,7 @@ echo.
 echo.       ______________________________________________________________
 echo.
 echo.             Installing Outlook adblocker...
+echo.>>"%hostsFile%"
 echo %OutlookAdDomain%>>"%hostsFile%"
 echo.
 call :checkAdblocker
