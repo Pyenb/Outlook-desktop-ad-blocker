@@ -1,10 +1,10 @@
-<h1 align="center">
-
-  ![outlook](images/olk.png)
-
-  # Outlook desktop ad blocker
-
 <div align="center">
+
+<img src="images/olk.png" alt="image" width="300">
+
+# Outlook desktop ad blocker
+
+</div>
 
 This is a simple patch to the Windows hosts file, that causes the Outlook desktop client to stop displaying those *annoying* ads in your inbox. There will still be an empty space, but no more ads that you can accidentially click on.
 
