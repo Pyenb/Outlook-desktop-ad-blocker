@@ -6,8 +6,6 @@
 
 </div>
 
----
-
 This is a simple patch to the Windows hosts file, that causes the Outlook desktop client to stop displaying those *annoying* ads in your inbox. There will still be an empty space, but no more ads that you can accidentially click on.
 
 This simply works disallowing your PC to access the domain `outlookads.live.com`, which outlook uses to fetch the ads it displays.
