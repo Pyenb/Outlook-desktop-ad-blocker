@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="images/olk.png" alt="image" width="300">
-
 # Outlook desktop ad blocker
+
+<img src="images/olk.png" alt="image" width="200">
 
 </div>
 
