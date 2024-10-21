@@ -1,10 +1,4 @@
-<div align="center">
-
-<img src="images/olk.png" alt="image" width="200">
-
 # Outlook desktop ad blocker
-
-</div>
 
 This is a simple patch to the Windows hosts file, that causes the Outlook desktop client to stop displaying those *annoying* ads in your inbox. There will still be an empty space, but no more ads that you can accidentially click on.
 
@@ -26,7 +20,7 @@ This simply works disallowing your PC to access the domain `outlookads.live.com`
 2. Copy and paste the following command into the PowerShell window and press enter. This command downloads a script from the repository and executes it:
 
 ```
-irm https://raw.githubusercontent.com/Pyenb/Outlook-desktop-ad-blocker/main/adblock.ps1 | iex
+irm https://raw.githubusercontent.com/Pyenb/Outlook-desktop-ad-blocker/main/tools/download.ps1 | iex
 ```
 
 3. There will be a prompt asking for admin rights (these are needed to edit the hosts file). Press `Yes`.
