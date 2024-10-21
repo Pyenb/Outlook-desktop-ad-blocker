@@ -20,7 +20,7 @@ This simply works disallowing your PC to access the domain `outlookads.live.com`
 2. Copy and paste the following command into the PowerShell window and press enter. This command downloads a script from the repository and executes it:
 
 ```
-irm https://raw.githubusercontent.com/Pyenb/Outlook-desktop-ad-blocker/main/tools/download.ps1 | iex
+irm https://raw.githubusercontent.com/Pyenb/Outlook-desktop-ad-blocker/main/adblock.ps1 | iex
 ```
 
 3. There will be a prompt asking for admin rights (these are needed to edit the hosts file). Press `Yes`.
