@@ -1,5 +1,4 @@
 $hostsFile = "$env:SystemRoot\System32\drivers\etc\hosts"
-
 $domainsToBlock = @(
     "outlookads.live.com",
     "m.adnxs.com"
@@ -12,6 +11,12 @@ function Check-Admin {
         Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs
         Exit
     }
+}
+
+function Set-ConsoleColors {
+    [console]::BackgroundColor = 'Black'
+    [console]::ForegroundColor = 'White'
+    cls
 }
 
 function Check-HostsFileExists {
@@ -83,6 +88,7 @@ function Show-Menu {
 }
 
 Check-Admin
+Set-ConsoleColors
 Check-HostsFileExists
 
 do {
